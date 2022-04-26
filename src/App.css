@@ -1,0 +1,77 @@
+.App {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+  #input{
+    display: flex;
+    height: 50px;
+  }
+  input{
+    width:80%;
+    height:90%;
+    border: none;
+    padding:2px;
+    background-color:aliceblue;
+
+  }
+  #color{
+    display: inline-block;
+    background-color: rgb(233, 171, 171);
+  }
+  #down{
+   margin-top: 50px;
+  }
+  #check{
+    width:20%;
+    height:60%;
+    margin-top: 10px;
+  }
+  #under div{
+    width:100%;
+    height:50px;
+    border: 1px dotted black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+    color:brown;
+  }
+  #show div{
+    width:100%;
+    height:50px;
+    border: 1px dotted black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+    color:brown;
+    text-decoration: line-through;
+    opacity: 50%;
+  }
+  #under div:hover{
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+    transform: translate3d(0,-2px,0);
+  }
+  button{
+    width:20%;
+    height:50px;
+    font-size: xx-large;
+    border: none;
+    background-color:aliceblue;
+  }
+  
+  .items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .circlularButton {
+    background: transparent;
+    border: none;
+    background: coral;
+    border-radius: 50%;
+  }
+  #main{
+    width: 500px;
+    background-color:aliceblue;
+  }
+  
